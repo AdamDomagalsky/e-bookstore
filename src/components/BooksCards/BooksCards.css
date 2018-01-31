@@ -1,0 +1,39 @@
+.ui.pagination.menu {
+   display:flex;
+   justify-content: center;
+   border:none;
+}
+.ui .pagination .item {
+  list-style: none;
+  color:#0a3f5c;
+  border-radius:0 0 0 0;
+}
+
+.ui.pagination.menu .item:last-child{
+  border-radius:0 0 0 0;
+}
+.ui .pagination .item:before {
+  background:none;
+}
+
+
+.ui .pagination .item a:hover {
+  background:#2B3A42;
+  color:white;
+}
+
+.ui.menu .active.item{
+  background:none;
+  outline:0;
+
+}
+
+.ui.pagination.menu .active.item a{
+  background:#0a3f5c;
+  color:white;
+}
+
+.ui.pagination.menu{
+  margin-top:2rem;
+  padding-left:0;
+}

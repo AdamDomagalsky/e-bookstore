@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  position: relative;
+}
+
+
+div.ui.inverted.vertical.segment.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 12em;
+}
+
+div.ui.container{
+  padding: 0px;
+}
+
+
+.ui.inverted.list .item a:not(.ui):hover{
+  color:white!important;
+  text-decoration:underline;
+}
+
+
+.ui.pagination.menu .active.item{
+  background-color:rgb(14, 63, 92);
+}
+
+
+.app {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.app > div.ui.container {
+  flex: 1;
+  margin-bottom:2rem;
+}
+
+.ui.stackable.grid {
+  padding-top: 10px;
+}
+.ui.inverted.segment, .ui.primary.inverted.segment{
+  border-radius:0;
+}
+.ui.centered.card{
+  border:none;
+}
+.ui.card>.button, .ui.card>.buttons, .ui.cards>.card>.button, .ui.cards>.card>.buttons{
+  background: #eb4b36;
+  margin-bottom: 0.5rem;
+}
+
+
+.ui.primary.button.edit{
+  background-color:#3b5898;
+}
+
+button.ui.button.delete{
+  background-color:#1c1d1e;
+}

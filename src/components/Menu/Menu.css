@@ -1,0 +1,28 @@
+.ui.menu{
+  border:1px solid rgba(34,36,38,.15);
+  border-radius:0;
+}
+
+.item a{
+  color:#2C3E50;
+}
+
+
+.item a:hover{
+  color:#1F2B38;
+  text-decoration:underline;
+}
+
+
+.ui.button{
+  background-color:#2980B9;
+  color:white;
+  border-radius:0;
+  transition:0.2s linear;
+}
+
+.ui.button:hover{
+  background-color:#E74C3C;
+  color:white;
+
+}

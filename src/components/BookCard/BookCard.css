@@ -1,0 +1,57 @@
+.ui.card>.extra, .ui.cards>.card>.extra {
+  background: #eb4b36;
+  color: white;
+  font-size: 1.125rem;
+  padding-top: 0.5rem;
+  text-align: center;
+}
+
+.ui.card a, .ui.cards>.card a{
+  color:#0a3f5c;
+  font-weight:500;
+}
+
+.ui.card a:hover, .ui.cards>.card a:hover{
+  color:#eb4b36;
+}
+
+
+.ui.card>.button, .ui.card>.buttons, .ui.cards>.card>.button, .ui.cards>.card>.buttons{
+  background:#eb4b36;
+}
+
+
+.ui.card>.button:hover, .ui.card>.buttons:hover, .ui.cards>.card>.button:hover, .ui.cards>.card>.buttons:hover{
+  background:#2980B9;
+}
+
+.ui.card, .ui.cards>.card{
+  border:1px solid #ddd;
+  box-shadow:none;
+  border-radius:0;
+}
+
+.ui.card>:last-child, .ui.cards>.card>:last-child{
+  border-radius:0 0 0 0 !important;
+}
+
+.ui.card>.image, .ui.cards>.card>.image{
+  background:transparent;
+
+}
+
+.centered.image, .ui.centered.images {
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 20rem;
+  -webkit-filter: brightness(100%);
+}
+
+.centered.image:hover, .ui.centered.images:hover {
+  -webkit-filter: brightness(60%);
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
